@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 500px;
+  background-color: hsl(221, 100%, 96%);
+  display: flex;
+}
+.left-container {
+  /* background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)); */
+  flex: 50%;
+}
+.right-container {
+  flex: 50%;
+}
