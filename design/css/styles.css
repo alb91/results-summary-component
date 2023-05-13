@@ -7,16 +7,83 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 .container {
-  max-width: 500px;
   background-color: hsl(221, 100%, 96%);
   display: flex;
 }
 .left-container {
-  /* background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)); */
+  color: hsl(0, 0%, 100%);
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   flex: 50%;
+  text-align: center;
 }
+
+.result {
+  margin: 20px;
+}
+
+.grade {
+  margin: 90px;
+}
+
+.great {
+  margin: 20px;
+}
+
+.info {
+  margin: 20px;
+}
+
 .right-container {
   flex: 50%;
+}
+
+.summary {
+  margin: 30px 20px;
+}
+
+.reaction {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reaction-text {
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.memory-text {
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.verbal-text {
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.visual-text {
+  color: hsl(234, 85%, 45%);
+}
+
+.continue {
+  margin: 30px 20px;
 }
