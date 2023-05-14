@@ -13,29 +13,34 @@ body {
   background-color: hsl(221, 100%, 96%);
   display: flex;
 }
+/* Left container */
 .left-container {
   color: hsl(0, 0%, 100%);
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   flex: 50%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .result {
-  margin: 20px;
 }
 
 .grade {
-  margin: 90px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 
 .great {
-  margin: 20px;
 }
 
 .info {
-  margin: 20px;
 }
-
+/* Right container */
 .right-container {
   flex: 50%;
 }
