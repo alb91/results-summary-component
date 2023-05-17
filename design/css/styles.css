@@ -25,13 +25,13 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   border-radius: 5%;
 }
 
 .result {
-  margin: 20px;
+  color: hsl(0, 0%, 100%, 0.5);
 }
 
 .grade {
@@ -40,11 +40,15 @@ body {
   border-radius: 50%;
   background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   margin: 20px;
-  padding: 20px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.grade h1 {
+  font-size: 60px;
 }
 
 .grade div {
@@ -60,11 +64,12 @@ body {
   display: flex;
   flex-direction: column;
   color: hsl(0, 0%, 100%, 0.5);
+  margin-bottom: 25px;
 }
-.info div {
-}
+
 /* Right container */
 .right-container {
+  font-weight: bold;
   flex: 50%;
 }
 
@@ -81,8 +86,23 @@ body {
   border-radius: 10px;
 }
 
+.reaction-group {
+  display: flex;
+}
+
+.reaction-icon {
+  margin-right: 10px;
+}
+
 .reaction-text {
   color: hsl(0, 100%, 67%);
+}
+
+.reaction-grade {
+  color: hsl(224, 30%, 27%);
+}
+.reaction-grade span {
+  color: hsl(224, 30%, 27%, 0.5);
 }
 
 .memory {
@@ -94,10 +114,25 @@ body {
   border-radius: 10px;
 }
 
+.memory-group {
+  display: flex;
+}
+
+.memory-icon {
+  margin-right: 10px;
+}
+
 .memory-text {
   color: hsl(39, 100%, 56%);
 }
 
+.memory-grade {
+  font-weight: bold;
+  color: hsl(224, 30%, 27%);
+}
+.memory-grade span {
+  color: hsl(224, 30%, 27%, 0.5);
+}
 .verbal {
   margin: 20px;
   padding: 15px;
@@ -107,8 +142,23 @@ body {
   border-radius: 10px;
 }
 
+.verbal-group {
+  display: flex;
+}
+.verbal-icon {
+  margin-right: 10px;
+}
+
 .verbal-text {
   color: hsl(166, 100%, 37%);
+}
+
+.verbal-grade {
+  font-weight: bold;
+  color: hsl(224, 30%, 27%);
+}
+.verbal-grade span {
+  color: hsl(224, 30%, 27%, 0.5);
 }
 
 .visual {
@@ -120,8 +170,24 @@ body {
   border-radius: 10px;
 }
 
+.visual-group {
+  display: flex;
+}
+
+.visual-icon {
+  margin-right: 10px;
+}
+
 .visual-text {
   color: hsl(234, 85%, 45%);
+}
+
+.visual-grade {
+  font-weight: bold;
+  color: hsl(224, 30%, 27%);
+}
+.visual-grade span {
+  color: hsl(224, 30%, 27%, 0.5);
 }
 
 .continue {
