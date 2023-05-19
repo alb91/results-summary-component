@@ -10,6 +10,8 @@ body {
   height: 100vh;
   font-family: "Hanken Grotesk", sans-serif;
 }
+
+/* Main container */
 .container {
   background-color: hsl(0, 0%, 100%);
   display: flex;
@@ -54,9 +56,6 @@ body {
 .grade div {
   font-size: 16px;
   color: hsl(0, 0%, 100%, 0.5);
-}
-
-.great {
 }
 
 .info {
@@ -199,4 +198,19 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 25px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 375px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-container {
+    order: 1;
+  }
+
+  .right-container {
+    order: 2;
+  }
 }
